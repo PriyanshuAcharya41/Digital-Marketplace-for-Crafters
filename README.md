@@ -1,5 +1,6 @@
 # Digital Marketplace for Crafters
 
+![Smart Contracts](blockchain1.png)
 ## Project Description
 A decentralized application (dApp) built on the Stellar Soroban platform that empowers local artisans and crafters to list, showcase, and manage their handmade products on-chain.
 
