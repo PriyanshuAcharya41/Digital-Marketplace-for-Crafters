@@ -1,25 +1,25 @@
-<<<<<<< HEAD
-# Soroban Project
+# Digital Marketplace for Crafters
 
-## Project Structure
+![Smart Contracts](blockchain1.png)
+## Project Description
+A decentralized application (dApp) built on the Stellar Soroban platform that empowers local artisans and crafters to list, showcase, and manage their handmade products on-chain.
 
-This repository uses the recommended structure for a Soroban project:
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Project Vision
+To create a trustless, transparent, and open digital marketplace where artists can sell directly to customers without intermediaries. By utilizing smart contracts, the platform ensures ownership, transparency in transactions, and efficient inventory handling for crafters worldwide.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
-=======
-# Digital-Marketplace-for-Crafters
->>>>>>> ad3ae9a39c163819ad86b830900798c2b2b0a147
+## Key Features
+- **Product Listing**: Crafters can add new handmade products including title, description, and price.
+- **On-chain Storage**: All product data is securely stored on-chain using Soroban’s instance storage.
+- **Retrieve Product Info**: Buyers and sellers can fetch product details by product ID.
+- **Product Count Tracker**: Keeps track of total products listed on the platform.
+
+## Future Scope
+- **Purchase Flow with Escrow**: Add purchasing mechanism with escrow and dispute resolution.
+- **User Authentication**: Tie products to crafter accounts using Stellar addresses.
+- **Rating and Reviews**: Enable buyers to rate products and crafters.
+- **NFT Integration**: Convert listings to NFTs for provenance and ownership tracking.
+- **Multi-language Support**: Enhance accessibility for global crafters and customers.
+
+---
+
+Built using [Soroban SDK](https://soroban.stellar.org/docs) – a smart contract platform for the Stellar blockchain.
